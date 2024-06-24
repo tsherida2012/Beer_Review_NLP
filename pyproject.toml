@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "captsone3_module"
+version = "0.0.1"
+description = "\"An Analysis of Time Series Data on Daily Price Fluctuations in Major Fruits and Vegetables (2013-2021): This research project examines a Kaggle dataset comprising daily prices of prominent fruits and vegetables spanning from 2013 to 2021. The objective is to discern patterns, seasonal fluctuations, volatility, and the influence of external factors on pricing."
+authors = [
+  { name = "Thomas Sheridan" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = "~=Python 3.11.8"
+
+[tool.black]
+line-length = 99
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+)/
+'''
+
+[tool.ruff.lint.isort]
+known_first_party = ["captsone3_module"]
+force_sort_within_sections = true
