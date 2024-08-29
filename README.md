@@ -3,7 +3,7 @@
 Beer outlets need to strategically position themselves and maximize market share in the booming global beer market. Understanding customer preferences is crucial. This project leverages advanced data analytics and Natural Language Processing (NLP) techniques to predict beer preferences based on review text. The goal is to provide an automatic rating system and drive insights that can help beer outlets refine their inventory selection and improve customer satisfaction.
 
 
-  ![Local Image](beer.png)
+  ![Local Image](beer.jpg)
 
 
 
